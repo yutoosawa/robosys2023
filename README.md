@@ -3,11 +3,16 @@
 
 # plusコマンド
 
-![test](https://github.com/yutoosawa/robosys202x/actions/workflows/test.yml/badge.svg)
+![test](https://github.com/yutoosawa/robosys2023/actions/workflows/test.yml/badge.svg)
 
 標準入力から読み込んだ数字を足す。
 
-（ここに前ページの項目をいろりお考えて書く）
+##使い方
+
+1. スクリプトをテキストエディタで開きます。
+2. スクリプトを保存します。
+3. ターミナルを開き、スクリプトが保存されたディレクトリに移動します。
+4. 数字を含むテキストを標準入力から提供します。
 
 ## 必要なソフトウェア
 
