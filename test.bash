@@ -10,7 +10,7 @@ ng () {
 res=0
 
 ### I/O TEST ###
-out=$(seq 5 | ./plus | tail -n 1)
+out=$(seq 5 | ./plus | grep 'Number of Values')
 [ "${out}" = "Number of Values: 5" ] || ng $LINENO
 
 ### STRANCE INPUT ###
