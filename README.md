@@ -5,7 +5,7 @@
 
 ![test](https://github.com/yutoosawa/robosys2023/actions/workflows/test.yml/badge.svg)
 
-標準入力から読み込んだ数字を足す。
+標準入力から読み込んだ数字を足して、合計が偶数か奇数かを表示する。
 
 ## 使い方
 
