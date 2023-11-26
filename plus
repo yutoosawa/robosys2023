@@ -6,9 +6,12 @@ import sys
 def tonum(s):
     try:
         return int(s)
-    except:
-        return float(s)
-
+    except ValusError:
+        try:
+            return float(s)
+        except ValueError:
+            print(f"Error: Invalid input '{s}'")
+            sys.exit(1)
 
 ans = 0
 count = 0
