@@ -22,5 +22,9 @@ out=$(echo  | ./plus)
 [ "$?" = 1 ]      || ng $LINENO
 [ "${out}" = "" ] || ng $LINENO
 
+### TEST THE COUNT OF VALUES ###
+out=$(seq 5 | ./plus | tail -n 1)
+[ "${out}" = "Number of Values:5" ] || ng $LINENO
+
 [ "$res" = 0 ] && echo OK
 exit $res
