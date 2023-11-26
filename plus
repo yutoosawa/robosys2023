@@ -20,4 +20,4 @@ print(ans)
 if ans % 2 == 0:
     print("偶数")
 else:
-    pront("奇数")
+    print("奇数")
