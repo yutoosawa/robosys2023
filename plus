@@ -15,9 +15,7 @@ for line in sys.stdin:
     line = line.rstrip()
     ans += tonum(line)
 
-print(ans)
-
 if ans % 2 == 0:
-    print("even number")
+    print(ans, "偶数")
 else:
-    print("odd number")
+    print(ans, "奇数")
