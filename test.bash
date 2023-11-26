@@ -11,7 +11,7 @@ res=0
 
 ### I/O TEST ###
 out=$(seq 5 | ./plus)
-[ "${out}" = "15奇数" ] || ng $LINENO
+[ "${out}" = 15 ] || ng $LINENO
 
 ### STRANCE INPUT ###
 out=$(echo あ | ./plus)
