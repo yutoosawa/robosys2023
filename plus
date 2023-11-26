@@ -18,6 +18,6 @@ for line in sys.stdin:
 print(ans)
 
 if ans % 2 == 0:
-    print("偶数")
+    print("even number")
 else:
-    print("奇数")
+    print("odd number")
