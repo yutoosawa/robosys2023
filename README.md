@@ -9,7 +9,7 @@
 
 ##パッケージのインストール方法
 
-* git clone https://github.com/yutoosawa/robosys2023.git
+* ![git clone](https://github.com/yutoosawa/robosys2023.git)
 * このコマンドをターミナルで実行する.
 
 ## 使い方
@@ -21,9 +21,9 @@
 
 ## コマンドの実行例
 
-$ seq 17 | ./plus
+* $ seq 17 | ./plus
 
-153 奇数
+* 153 奇数
 
 ## 必要なソフトウェア
 
