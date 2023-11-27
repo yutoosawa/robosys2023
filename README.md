@@ -9,7 +9,7 @@
 
 ##パッケージのインストール方法
 
-* ![git clone](https://github.com/yutoosawa/robosys2023.git)
+* git clone https://github.com/yutoosawa/robosys2023.git
 * このコマンドをターミナルで実行する.
 
 ## 使い方
