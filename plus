@@ -16,6 +16,6 @@ for line in sys.stdin:
     ans += tonum(line)
 
 if ans % 2 == 0:
-    print(ans, "偶数")
+    print(ans "偶数")
 else:
-    print(ans, "奇数")
+    print(ans "奇数")
